@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    flex: 1; 
+  }
+  
+  #intro {
+    text-align: center;
+    background-image: url('minecraftbackground.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  }
+  
+  #bg-music {
+    display: none;
+  }
+  
+  h1, h2 {
+    color: #0d6efd;
+  }
+  
+  img {
+    margin-bottom: 15px;
+  }
+  
+  #features {
+    background-color: white; 
+    color: black; 
+  }
+  
+  #media {
+    margin-top: 50px;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
